@@ -1,0 +1,13 @@
+body { font-family: "Big Shoulders Display", sans-serif; }
+
+.navbar {
+  font-weight: 300;
+  .navbar-brand h3 { font-weight: 700; }
+  .navbar-nav {
+    .nav-link {
+    padding-bottom: 0.4rem;
+    &:hover { border-bottom: 1px solid; }
+  }
+  .nav-item { font-size: 1.8rem; }
+  }
+}
